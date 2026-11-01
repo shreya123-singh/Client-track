@@ -1,0 +1,72 @@
+
+/* Main application */
+.stApp {
+    background-color: #f4f7f5;
+    color: #263b33;
+}
+
+/* Hide automatic Streamlit page navigation */
+[data-testid="stSidebarNav"] {
+    display: none;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #123c32;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff;
+}
+
+/* Main headings */
+h1, h2, h3 {
+    color: #173d32;
+    font-weight: 700;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid #e0eae4;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+}
+
+/* Metric labels */
+div[data-testid="stMetricLabel"] {
+    color: #52675d;
+}
+
+/* Metric values */
+div[data-testid="stMetricValue"] {
+    color: #176b50;
+    font-weight: 700;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #176b50;
+    color: #ffffff;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 16px;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #0f503b;
+    color: #ffffff;
+}
+
+/* Data tables */
+div[data-testid="stDataFrame"] {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+/* Dividers */
+hr {
+    border-color: #dce7e1;
+}
